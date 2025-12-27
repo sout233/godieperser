@@ -1,0 +1,63 @@
+.top-bar-text {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 12px;
+    color: #b1ffc0;
+}
+
+.spectrum-panel {
+    background-color: #121713;
+    height: 70%;
+}
+
+.control-panel {
+    background-color: #f2fbf4;
+}
+
+.shadow-bar {
+    height: 1px;
+    shadow: 0px 4px 48px 12px rgb(80 123 80 / 80%);
+}
+
+.knob {
+    height: 80px;
+    width: 80px;
+    shadow:
+        4px 4px 24px 4px rgb(80 123 80 / 20%),
+        -4px -4px 24px 4px white;
+    corner-radius: 48px;
+    scale: 100%;
+    transition: scale 233ms;
+    transition: shadow 233ms;
+}
+
+.knob:hover {
+    scale: 95%;
+    shadow:
+        4px 4px 24px 0px rgb(80 123 80 / 20%),
+        4px 4px 24px 0px white;
+    transition: scale 233ms;
+    transition: shadow 233ms;
+}
+
+.knob-cont {
+    /*background-color: red;*/
+    height: auto;
+    width: auto;
+    gap: 10px;
+    alignment: center;
+}
+
+.params-label {
+    background-color: white;
+    color: black;
+    transition: background-color 233ms;
+    transition: color 233ms;
+}
+
+.params-label:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 233ms;
+    transition: color 233ms;
+}
