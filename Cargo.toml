@@ -12,7 +12,7 @@ members = ["im_installer","xtask"]
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
-i_am_dsp = { path = "../i_am_dsp" }
+i_am_dsp = { git = "https://github.com/IAMMRGODIE/i_am_dsp" }
 nih_plug = { git = "https://github.com/robbert-vdh/nih-plug", features = ["standalone"] }
 vizia_plug = { git = "https://github.com/vizia/vizia-plug", rev = "07ab0ec4" }
 atomic_float = "0.1"
